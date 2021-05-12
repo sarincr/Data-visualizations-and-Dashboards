@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>House Price Data</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.2.min.js" integrity="sha384-XypntL49z55iwGVUW4qsEu83zKL3XEcz0MjuGOQ9SlaaQ68X/g+k1FcioZi7oQAc" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="1062528e-65b9-49c9-a207-0afa7c2e1dce" data-root-id="1002"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1140">
+          {"70cf0a0e-0567-4a79-bdbb-5f62e857508c":{"defs":[],"roots":{"references":[{"attributes":{},"id":"1021","type":"PanTool"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"1027","type":"BoxAnnotation"},{"attributes":{"axis_label":"Area","formatter":{"id":"1041"},"major_label_policy":{"id":"1042"},"ticker":{"id":"1014"}},"id":"1013","type":"LinearAxis"},{"attributes":{"overlay":{"id":"1027"}},"id":"1023","type":"BoxZoomTool"},{"attributes":{},"id":"1005","type":"DataRange1d"},{"attributes":{},"id":"1018","type":"BasicTicker"},{"attributes":{},"id":"1041","type":"BasicTickFormatter"},{"attributes":{},"id":"1024","type":"SaveTool"},{"attributes":{},"id":"1025","type":"ResetTool"},{"attributes":{"active_multi":null,"tools":[{"id":"1021"},{"id":"1022"},{"id":"1023"},{"id":"1024"},{"id":"1025"},{"id":"1026"}]},"id":"1028","type":"Toolbar"},{"attributes":{},"id":"1042","type":"AllLabels"},{"attributes":{},"id":"1044","type":"BasicTickFormatter"},{"attributes":{"data_source":{"id":"1035"},"glyph":{"id":"1036"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1037"},"view":{"id":"1039"}},"id":"1038","type":"GlyphRenderer"},{"attributes":{},"id":"1045","type":"AllLabels"},{"attributes":{},"id":"1047","type":"Selection"},{"attributes":{"source":{"id":"1035"}},"id":"1039","type":"CDSView"},{"attributes":{"below":[{"id":"1013"}],"center":[{"id":"1016"},{"id":"1020"}],"left":[{"id":"1017"}],"renderers":[{"id":"1038"}],"title":{"id":"1003"},"toolbar":{"id":"1028"},"x_range":{"id":"1005"},"x_scale":{"id":"1009"},"y_range":{"id":"1007"},"y_scale":{"id":"1011"}},"id":"1002","subtype":"Figure","type":"Plot"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"field":"fill_color"},"line_color":{"field":"line_color"},"size":{"value":10},"x":{"field":"x"},"y":{"field":"y"}},"id":"1036","type":"Circle"},{"attributes":{},"id":"1048","type":"UnionRenderers"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"fill_color"},"line_alpha":{"value":0.1},"line_color":{"field":"line_color"},"size":{"value":10},"x":{"field":"x"},"y":{"field":"y"}},"id":"1037","type":"Circle"},{"attributes":{"data":{"fill_color":["red","blue","green","red","green","red","red","green","red","grey","red","grey","grey","blue","green","blue","green","blue","green","grey","red","red","red","green","blue","grey","grey","green","grey","green","green","green","grey","grey","blue","blue","green","grey","blue","grey","grey","blue","red","green","grey","red","blue","blue","red","grey","grey","grey","blue","grey","red","red","green","green","red","grey","red","red","red","grey","red","grey","green","grey","grey","grey","blue","grey","blue","red","red","green","green","blue","blue","green","green","green","grey","green","red","red","red","red","green","blue","green","red","red","red","grey","green","red","red","blue","green","grey","red","blue","red","grey","red","grey","blue","blue","green","grey","grey","red","green","blue","blue","green","red","red","blue","blue","green","grey","green","grey","blue","red","blue","red","red","blue","green","green","blue","grey","red","grey","red","green","grey","grey","blue","blue","red","grey","green","green","blue","green","red"],"line_color":["red","blue","green","red","green","red","red","green","red","grey","red","grey","grey","blue","green","blue","green","blue","green","grey","red","red","red","green","blue","grey","grey","green","grey","green","green","green","grey","grey","blue","blue","green","grey","blue","grey","grey","blue","red","green","grey","red","blue","blue","red","grey","grey","grey","blue","grey","red","red","green","green","red","grey","red","red","red","grey","red","grey","green","grey","grey","grey","blue","grey","blue","red","red","green","green","blue","blue","green","green","green","grey","green","red","red","red","red","green","blue","green","red","red","red","grey","green","red","red","blue","green","grey","red","blue","red","grey","red","grey","blue","blue","green","grey","grey","red","green","blue","blue","green","red","red","blue","blue","green","grey","green","grey","blue","red","blue","red","red","blue","green","green","blue","grey","red","grey","red","green","grey","grey","blue","blue","red","grey","green","green","blue","green","red"],"x":[392,148,98,160,191,79,174,465,176,23,33,106,326,276,135,348,35,293,198,136,157,491,385,121,455,309,476,159,489,450,98,232,413,148,75,189,100,472,259,143,360,213,442,128,490,267,234,43,73,24,138,220,248,382,159,343,182,325,82,203,430,261,256,155,415,335,478,60,355,45,242,35,357,12,80,209,231,245,404,56,219,188,97,155,86,258,268,435,197,95,377,463,359,78,250,339,312,496,347,214,434,378,28,226,185,365,252,140,408,460,296,240,455,237,412,325,416,225,436,306,156,99,331,240,373,238,446,16,366,64,166,219,108,136,197,18,57,292,54,289,246,223,18,128,464,333,489,275,383,472],"y":[10,39,8,30,27,5,1,50,48,17,14,33,38,11,21,8,11,30,15,5,26,7,43,50,34,14,2,21,33,44,29,19,8,21,19,25,48,27,32,7,47,4,35,29,30,26,11,17,29,26,16,4,23,9,18,50,28,29,5,4,21,7,11,4,4,45,42,13,0,22,50,3,45,13,46,29,29,29,12,20,33,20,31,47,2,23,27,39,45,19,9,29,16,10,16,26,17,16,30,15,38,17,18,1,5,18,13,29,30,4,27,29,31,36,24,10,44,42,34,24,34,26,4,0,23,14,2,4,13,35,11,5,28,30,40,7,5,7,1,26,36,9,36,39,35,47,42,6,6,46]},"selected":{"id":"1047"},"selection_policy":{"id":"1048"}},"id":"1035","type":"ColumnDataSource"},{"attributes":{},"id":"1011","type":"LinearScale"},{"attributes":{},"id":"1007","type":"DataRange1d"},{"attributes":{},"id":"1009","type":"LinearScale"},{"attributes":{"text":"House Price Data"},"id":"1003","type":"Title"},{"attributes":{"axis":{"id":"1013"},"ticker":null},"id":"1016","type":"Grid"},{"attributes":{},"id":"1014","type":"BasicTicker"},{"attributes":{"axis_label":"Price","formatter":{"id":"1044"},"major_label_policy":{"id":"1045"},"ticker":{"id":"1018"}},"id":"1017","type":"LinearAxis"},{"attributes":{},"id":"1022","type":"WheelZoomTool"},{"attributes":{},"id":"1026","type":"HelpTool"},{"attributes":{"axis":{"id":"1017"},"dimension":1,"ticker":null},"id":"1020","type":"Grid"}],"root_ids":["1002"]},"title":"Bokeh Application","version":"2.3.2"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1140').textContent;
+                  var render_items = [{"docid":"70cf0a0e-0567-4a79-bdbb-5f62e857508c","root_ids":["1002"],"roots":{"1002":"1062528e-65b9-49c9-a207-0afa7c2e1dce"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
